@@ -199,6 +199,14 @@ footer {
 }
 
 /* Mobile view */
+/* Hamburger base style */
+.hamburger {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+    user-select: none;
+}
+
 @media (max-width: 768px) {
 
     .nav-left {
@@ -227,3 +235,4 @@ footer {
         display: block;
     }
 }
+
