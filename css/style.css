@@ -187,3 +187,43 @@ footer {
         padding: 15px;
     }
 }
+
+/* =====================
+   HAMBURGER MENU
+===================== */
+
+.hamburger {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+
+    .nav-left {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        padding: 10px 0;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
